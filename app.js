@@ -16,7 +16,7 @@ const mongoose = require("mongoose");
 mongoose.set("strictQuery", false);
 
 const dev_db_url =
-  "mongodb+srv://altalex491:<db_password>@cluster0.q5j7lv9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+  "mongodb+srv://altalex491:A050709a@cluster0.q5j7lv9.mongodb.net/local_library?retryWrites=true&w=majority&appName=Cluster0";
 const mongoDB = process.env.MONGODB_URI || dev_db_url;
 
 main().catch((err) => console.log(err));
